@@ -11,7 +11,7 @@
     <persistedState key="show_in_time" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;show_in_time/>"/>
     <tags>topLevel</tags>
     <tags>shellMaximized</tags>
-    <children xsi:type="basic:PartSashContainer" xmi:id="_P2u8wnTXEe6l9cTm-fb-rg" selectedElement="_P2u8w3TXEe6l9cTm-fb-rg" horizontal="true">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_P2u8wnTXEe6l9cTm-fb-rg" selectedElement="_P2u8xHTXEe6l9cTm-fb-rg" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_P2u8w3TXEe6l9cTm-fb-rg" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_P70REHTXEe6l9cTm-fb-rg">
         <children xsi:type="advanced:Perspective" xmi:id="_P70REHTXEe6l9cTm-fb-rg" elementId="org.eclipse.jst.j2ee.J2EEPerspective" selectedElement="_P70REXTXEe6l9cTm-fb-rg" label="Java EE" iconURI="platform:/plugin/org.eclipse.jst.j2ee.ui/icons/full/cview16/j2ee_perspective.gif">
           <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:print,persp.hideToolbarSC:org.eclipse.ui.edit.undo,persp.hideToolbarSC:org.eclipse.ui.edit.redo,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,persp.hideToolbarSC:org.eclipse.debug.ui.commands.RunToLine,persp.hideToolbarSC:org.eclipse.jdt.ui.actions.OpenProjectWizard,"/>
@@ -51,10 +51,6 @@
           <tags>persp.newWizSC:org.eclipse.m2e.core.wizards.Maven2ProjectWizard</tags>
           <tags>persp.newWizSC:org.eclipse.wst.css.ui.internal.wizard.NewCSSWizard</tags>
           <tags>persp.newWizSC:org.eclipse.wst.jsdt.ui.NewJSWizard</tags>
-          <tags>persp.editorOnboardingText:Open a file or drop files here to open them.</tags>
-          <tags>persp.editorOnboardingCommand:Find Actions$$$Ctrl+3</tags>
-          <tags>persp.editorOnboardingCommand:Show Key Assist$$$Ctrl+Shift+L</tags>
-          <tags>persp.editorOnboardingCommand:New$$$Ctrl+N</tags>
           <tags>persp.perspSC:org.eclipse.debug.ui.DebugPerspective</tags>
           <tags>persp.perspSC:org.eclipse.jdt.ui.JavaPerspective</tags>
           <tags>persp.perspSC:org.eclipse.ui.resourcePerspective</tags>
@@ -83,9 +79,12 @@
           <tags>persp.newWizSC:org.eclipse.jst.jsp.ui.internal.wizard.NewJSPWizard</tags>
           <tags>persp.newWizSC:org.eclipse.jpt.jpa.ui.wizard.newJpaProject</tags>
           <tags>persp.perspSC:org.eclipse.jpt.ui.jpaPerspective</tags>
+          <tags>persp.editorOnboardingText:Open a file or drop files here to open them.</tags>
+          <tags>persp.editorOnboardingCommand:Find Actions$$$Ctrl+3</tags>
+          <tags>persp.editorOnboardingCommand:Show Key Assist$$$Ctrl+Shift+L</tags>
+          <tags>persp.editorOnboardingCommand:New$$$Ctrl+N</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_P70REXTXEe6l9cTm-fb-rg" selectedElement="_P70REnTXEe6l9cTm-fb-rg" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_P70REnTXEe6l9cTm-fb-rg" elementId="topLeft" containerData="2000" selectedElement="_P70RE3TXEe6l9cTm-fb-rg">
-              <tags>active</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_P70RE3TXEe6l9cTm-fb-rg" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_P5UWsHTXEe6l9cTm-fb-rg" closeable="true">
                 <tags>View</tags>
                 <tags>categoryTag:General</tags>
@@ -211,12 +210,13 @@
           </children>
         </children>
       </children>
-      <children xsi:type="basic:PartStack" xmi:id="_P2u8xHTXEe6l9cTm-fb-rg" elementId="stickyFolderRight" toBeRendered="false" containerData="2500">
+      <children xsi:type="basic:PartStack" xmi:id="_P2u8xHTXEe6l9cTm-fb-rg" elementId="stickyFolderRight" containerData="2500" selectedElement="_P2u8xnTXEe6l9cTm-fb-rg">
+        <tags>active</tags>
         <children xsi:type="advanced:Placeholder" xmi:id="_P2u8xXTXEe6l9cTm-fb-rg" elementId="org.eclipse.help.ui.HelpView" toBeRendered="false" ref="_P2tuoHTXEe6l9cTm-fb-rg" closeable="true">
           <tags>View</tags>
           <tags>categoryTag:Help</tags>
         </children>
-        <children xsi:type="advanced:Placeholder" xmi:id="_P2u8xnTXEe6l9cTm-fb-rg" elementId="org.eclipse.ui.internal.introview" toBeRendered="false" ref="_P2u8wHTXEe6l9cTm-fb-rg" closeable="true">
+        <children xsi:type="advanced:Placeholder" xmi:id="_P2u8xnTXEe6l9cTm-fb-rg" elementId="org.eclipse.ui.internal.introview" ref="_P2u8wHTXEe6l9cTm-fb-rg" closeable="true">
           <tags>View</tags>
           <tags>categoryTag:General</tags>
         </children>
@@ -238,6 +238,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view>&#xD;&#xA;&lt;presentation currentPage=&quot;qroot&quot; restore=&quot;true&quot;/>&#xD;&#xA;&lt;standbyPart/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_QE2RQHTXEe6l9cTm-fb-rg" elementId="org.eclipse.ui.internal.introview">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -259,11 +261,9 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_P5UWsHTXEe6l9cTm-fb-rg" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources/icons/full/eview16/resource_persp.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.navigator.resources.ProjectExplorer"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.navigator.resources"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1698417833704&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_P9x_8HTXEe6l9cTm-fb-rg" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -439,7 +439,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_P3o7sHTXEe6l9cTm-fb-rg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_P3rX8HTXEe6l9cTm-fb-rg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_PtydmXTXEe6l9cTm-fb-rg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_yIuwMIImEe6nptYqcq08kQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_PtydmXTXEe6l9cTm-fb-rg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_P3o7sXTXEe6l9cTm-fb-rg" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -447,8 +447,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_P3o7s3TXEe6l9cTm-fb-rg" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_P3rX9nTXEe6l9cTm-fb-rg" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_Ptx1WXTXEe6l9cTm-fb-rg"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_P3r_AHTXEe6l9cTm-fb-rg" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_PtycJ3TXEe6l9cTm-fb-rg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_yIvXQYImEe6nptYqcq08kQ" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_Ptx1WXTXEe6l9cTm-fb-rg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_yIv-UIImEe6nptYqcq08kQ" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_PtycJ3TXEe6l9cTm-fb-rg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_P3o7tHTXEe6l9cTm-fb-rg" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -475,7 +475,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_P3o7uHTXEe6l9cTm-fb-rg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_P3smEHTXEe6l9cTm-fb-rg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_PtydPHTXEe6l9cTm-fb-rg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_yIv-VoImEe6nptYqcq08kQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_PtydPHTXEe6l9cTm-fb-rg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_P3o7uXTXEe6l9cTm-fb-rg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1770,6 +1770,48 @@
     <tags>View</tags>
     <tags>categoryTag:XML</tags>
   </descriptors>
+  <descriptors xmi:id="_yHidYIImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.fm.attributes.view.FeatureAttributeView" label="Feature Attributes" iconURI="platform:/plugin/de.ovgu.featureide.fm.attributes/icons/FeatureIconSmall.ico" tooltip="" category="FeatureIDE" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="de.ovgu.featureide.fm.attributes.view.FeatureAttributeView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="de.ovgu.featureide.fm.attributes"/>
+    <tags>View</tags>
+    <tags>categoryTag:FeatureIDE</tags>
+  </descriptors>
+  <descriptors xmi:id="_yHjEcIImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.fm.ui.views.FeatureModelEditView" label="Feature Model Edits" iconURI="platform:/plugin/de.ovgu.featureide.fm.ui/icons/FeatureIconSmall.ico" tooltip="" category="FeatureIDE" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="de.ovgu.featureide.fm.ui.views.FeatureModelEditView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="de.ovgu.featureide.fm.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:FeatureIDE</tags>
+  </descriptors>
+  <descriptors xmi:id="_yHjrgIImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ui.views.collaboration.outline.CollaborationOutline" label="FeatureIDE Outline" iconURI="platform:/plugin/de.ovgu.featureide.fm.ui/icons/FeatureIconSmall.ico" tooltip="" category="FeatureIDE" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="de.ovgu.featureide.fm.ui.views.outline.custom.Outline"/>
+    <persistedState key="originalCompatibilityViewBundle" value="de.ovgu.featureide.fm.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:FeatureIDE</tags>
+  </descriptors>
+  <descriptors xmi:id="_yHjrgYImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.fm.ui.views.ConstraintView" label="Feature Model Constraints" iconURI="platform:/plugin/de.ovgu.featureide.fm.ui/icons/FeatureIconSmall.ico" tooltip="" category="FeatureIDE" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="de.ovgu.featureide.fm.ui.views.constraintview.ConstraintViewController"/>
+    <persistedState key="originalCompatibilityViewBundle" value="de.ovgu.featureide.fm.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:FeatureIDE</tags>
+  </descriptors>
+  <descriptors xmi:id="_yHkSkIImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ui.views.collaboration.Collaboration" label="Collaboration Diagram" iconURI="platform:/plugin/de.ovgu.featureide.ui/icons/FeatureIconSmall.ico" tooltip="" category="FeatureIDE" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="de.ovgu.featureide.ui.views.collaboration.CollaborationView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="de.ovgu.featureide.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:FeatureIDE</tags>
+  </descriptors>
+  <descriptors xmi:id="_yHkSkYImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ui.statistics.ui.FeatureStatisticsView" label="FeatureIDE Statistics" iconURI="platform:/plugin/de.ovgu.featureide.ui/icons/FeatureIconSmall.ico" tooltip="" category="FeatureIDE" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="de.ovgu.featureide.ui.statistics.ui.FeatureStatisticsView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="de.ovgu.featureide.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:FeatureIDE</tags>
+  </descriptors>
+  <descriptors xmi:id="_yHk5oIImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ui.views.configMap" label="Configuration Map" iconURI="platform:/plugin/de.ovgu.featureide.ui/icons/FeatureIconSmall.ico" tooltip="" category="FeatureIDE" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="de.ovgu.featureide.ui.views.configMap.ConfigurationMap"/>
+    <persistedState key="originalCompatibilityViewBundle" value="de.ovgu.featureide.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:FeatureIDE</tags>
+  </descriptors>
   <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
     <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
       <tags>glue</tags>
@@ -3052,6 +3094,35 @@
   <commands xmi:id="_P2LjKHTXEe6l9cTm-fb-rg" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.context.ui.actions.tasklist.focus" commandName="Focus on Workweek" description="Focus on Workweek" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
   <commands xmi:id="_P2LjKXTXEe6l9cTm-fb-rg" elementId="AUTOGEN:::org.eclipse.pde.ui.logViewActions/org.eclipse.jdt.debug.ui.LogViewActions.showStackTrace" commandName="Show Stack Trace in Console View" description="Show Stack Trace in Console View" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
   <commands xmi:id="_P2LjKnTXEe6l9cTm-fb-rg" elementId="AUTOGEN:::org.eclipse.ui.articles.action.contribution.view/org.eclipse.wst.wsi.ui.internal.actions.actionDelegates.ValidateWSIProfileActionDelegate" commandName="WS-I Profile Validator" description="Validate WS-I Message Log File" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1YcIImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.fm.ui.commands.Convert" commandName="Convert Feature Models" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1YcYImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ui.mpl.commands.mapping" commandName="Set current project mapping" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1YcoImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.core.featurehouse.ui.commands.metaproduct" commandName="Generate Metaproduct" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_gIImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ui.mpl.commands.newInterface" commandName="New Interface" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_gYImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.fm.ui.commands.FMImport" commandName="Import feature model" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_goImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.fm.ui.commands.EliminateComplexConstraints" commandName="Eliminate complex constraints" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_g4ImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.fm.ui.commands.FMExport" commandName="Export feature model" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_hIImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ui.commands.enableHighlighting" commandName="Enable Editor Highlighting" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_hYImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.fm.ui.commands.FeatureModelSlicing" commandName="Feature Model Slicing" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_hoImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ui.commands.productGenerator" commandName="Product Generator" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_h4ImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ui.mpl.commands.conversion" commandName="Convert to MPL Project" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_iIImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ui.mpl.commands.javadoc.product" commandName="Create product documentation (Javadoc)" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_iYImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ui.commands.setConfiguration" commandName="Set as current configuration" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_ioImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ui.commands.exportAs" commandName="Export As" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_i4ImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.fm.ui.commands.FeatureDependencies" commandName="Export feature dependency information" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_jIImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ui.commands.buildFeatureGraph" commandName="Build Modal Implication Graph" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_jYImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.fm.ui.colorscheme" commandName="Colorscheme" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_joImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.fm.ui.commands.openWithGuidsl" commandName="Open with GUIDSL" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_j4ImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ui.mpl.commands.javadoc.feature" commandName="Create feature documentation (Javadoc)" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_kIImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ui.commands.buildPartialProject" commandName="Build Partial Project" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_kYImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ui.commands.Conversion" commandName="Add FeatureIDE Nature" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_koImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.fm.ui.commands.ManageColorSchemes" commandName="Manage Color Schemes" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_k4ImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.fm.ui.commands.AnalyzeVelvet" commandName="Analyze Velvet Model" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_lIImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ui.mpl.commands.statistics" commandName="Print MPL Statistics" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_lYImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ui.mpl.commands.javadoc.statistic" commandName="Create documentation statistics" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_loImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ui.mpl.commands.javadoc.meta" commandName="Create meta documentation (Javadoc)" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_l4ImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ahead.commands.changecomposeraction" commandName="changecomposeraction" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_mIImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.ui.mpl.commands.javadoc.context" commandName="Create context documentation (Javadoc)" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
+  <commands xmi:id="_yA1_mYImEe6nptYqcq08kQ" elementId="de.ovgu.featureide.fm.ui.commands.FeatureObfuscator" commandName="Export obfuscated feature model" category="_PtuKyXTXEe6l9cTm-fb-rg"/>
   <addons xmi:id="_Pte6LnTXEe6l9cTm-fb-rg" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_Pte6L3TXEe6l9cTm-fb-rg" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_Pte6MHTXEe6l9cTm-fb-rg" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -3063,7 +3134,7 @@
   <addons xmi:id="_Pte6NnTXEe6l9cTm-fb-rg" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_Pte6N3TXEe6l9cTm-fb-rg" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_PtkZsHTXEe6l9cTm-fb-rg" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_yBaAMIImEe6nptYqcq08kQ" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_PtuKsHTXEe6l9cTm-fb-rg" elementId="org.eclipse.ui.category.edit" name="Edit"/>
   <categories xmi:id="_PtuKsXTXEe6l9cTm-fb-rg" elementId="org.eclipse.mylyn.wikitext.ui.editor.category" name="WikiText Markup Editing Commands" description="commands for editing lightweight markup"/>
